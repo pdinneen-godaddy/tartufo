@@ -1,3 +1,15 @@
+vX.Y.Z - TBD
+------------
+
+Features:
+
+* #76 - Added logging! You can now use the `-v`/`--verbose` option to increase
+  the amount of output from tartufo. Specifying multiple times will incrementally
+  increase what is output.
+* Added a `--log-timestamps`/`--no-log-timestamps` option (default: True) so that
+  timestamps can be hidden in log messages. This could be helpful when, for example,
+  comparing the output from multiple runs.
+
 v2.3.1 - 16 February 2021
 -------------------------
 
@@ -8,7 +20,6 @@ Bug fixes:
 Other changes:
 
 * Added no-fetch to code snippets and note about what it does
-
 
 v2.3.0 - 04 February 2021
 -------------------------
